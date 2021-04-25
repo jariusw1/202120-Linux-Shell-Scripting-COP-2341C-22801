@@ -1,0 +1,11 @@
+#!/bin/bash
+names[1]=Jarius
+names[2]=Tom
+names[3]=Mike
+names[4]=Bill
+
+echo ${names[3]}
+echo ${names[4]}
+echo ${names[1]}
+for i in {1..4}; do echo $i;done
+for i in {1..4}; do echo “User $i is ${names[$i]}”;done
