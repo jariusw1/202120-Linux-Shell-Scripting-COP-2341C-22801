@@ -1,0 +1,16 @@
+#!/bin/bash
+
+function hello(){            
+        echo “Hello World”            
+        echo “and everyone else”
+}
+function world(){            
+        echo “======================”           
+        echo “Hey back at ya”
+}
+hello
+echo “hi”
+world
+world
+world
+world 
