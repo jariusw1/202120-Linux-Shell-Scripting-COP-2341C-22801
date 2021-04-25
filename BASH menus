@@ -1,0 +1,31 @@
+#!/bin/bash
+
+X=0
+While [$x =0 ]
+Do
+
+  clear
+  echo “Do you like candy? (y/n) – Press ‘q’ to quit.”
+  read answer 
+  
+  case “$answer” in 
+        y) 
+        echo “You said – yes” 
+        x=1 
+        ;; 
+        n)
+        echo “You said – NO”
+        x=1
+        ;; 
+        q)
+        x=1
+        echo “Exiting...” 
+        sleep 2
+        ;; 
+        *)
+        clear                              
+        echo “That is not an option”
+        sleep 3                               
+        ;;                     
+   esac
+done                      
